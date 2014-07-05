@@ -1,0 +1,21 @@
+	<!-- EN LOS HIJOS, EL CONTENIDO NO SE VE SI NO ESTA DENTRO DE UN BLOQUE-->
+	<H1>blog</H1>
+	
+	<!-- SI EL ARREGLO DE OBJETOS NO TIENE ITEMS (LOS ARREGLOS TIENEN LA PROPIEDAD length PARA SABER) -->
+	{%if articulos.length == 0%}
+		<H2>nO HAY ARTICULOS EN EL BLOG TODAVIA</H2>
+	{%else%}
+		{%for articulo in articulos%}
+			<h2>{{articulo.titulo}}</h2>
+			<p>{{articulo.contenido}}</p>
+		{%endfor%}
+	
+	{%endif%}
+	
+	<nav id="categorias">
+		<ul>
+			{%for categoria in categorias%}
+			<li>{{categoria.nombre}}</li>
+			{%endfor%}
+		</ul>
+	</nav>

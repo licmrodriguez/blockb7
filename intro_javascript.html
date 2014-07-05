@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+	<head lang="es">
+		<meta charset="utf-8"/>
+		<title>JavaScript intro</title>
+		<script>
+			//JAVASCRIP ES UN LEGUAJE
+			//BASADO EN PROGRAMACION FUNCIONAL
+			//scheme es el padre de la programacion funcional
+			//NO TIPADO
+			var nombre = "miguel";
+			var edad = 34;
+
+			//javascrip del lado del cliente
+			//USA EL TIPO DE DATO FLOAT IEE754
+			//TODOS LOS NUMEROS SON DE TIPO FLOAT
+			//
+
+			function calculaAreaCuadrado(lado) {
+				return lado * lado;
+			}
+
+			//alert(calculaAreaCuadrado(5));
+			
+			//SE PUEDEN GUARDAR FUNCIONES EN VARIABLES
+			//FUNCION ANONIMA (LAMBDAS)
+			var function calculaAreaCirculo = function(radio){
+				return 3.14*radio*radio;
+			};
+			
+			//alert(calculaAreaCirculo(1));
+			
+			function calculaArea(miFuncion){
+				var resultado = miFuncion(1);
+				return resultado;
+			}
+			
+			//alert(calculaArea(calculaAreaCirculo));
+			
+			// PRIMERA FORMA DE DECLARAR UN OBJETO EN JAVASCRIPT
+			// HERENCIA DE PROTOTIPOS
+			// SE PUEDE EMULAR USANDO HERENCIA PROTOTIPOS
+			var persona = new object();
+			persona.nombre = "miguel";
+			persona.hablar = function(){
+				alert("hola soy:" + this.nombre);
+			};
+			
+			/*persona.hablar();*/
+			
+			// FORMA 2 DE DECLARAR OBJETOS
+			//JAVASCRIPT OBJET LITERAL
+			var persona2 = {
+				nombre : "miguel",
+				hablar : function(){
+					alert("hola soy :" + this.nombre);
+				},
+				hermano:persona
+			};
+			
+			persona2.hermano.hablar();
+
+		</script>
+	</head>
+	<body>
+		<!-- nada de contenido -->
+	</body>
+</html>
+
