@@ -143,8 +143,8 @@
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 </folder>
 </info>
-<info part="org.eclipse.ui.editorss" ratio="0.20704846" ratioLeft="329" ratioRight="1260" relationship="2" relative="left"/>
-<info folder="true" part="terminalArea" ratio="0.6175637" ratioLeft="436" ratioRight="270" relationship="4" relative="org.eclipse.ui.editorss">
+<info part="org.eclipse.ui.editorss" ratio="0.2599119" ratioLeft="413" ratioRight="1176" relationship="2" relative="left"/>
+<info folder="true" part="terminalArea" ratio="0.34702548" ratioLeft="245" ratioRight="461" relationship="4" relative="org.eclipse.ui.editorss">
 <folder activePageID="com.aptana.terminal.views.terminal:blog_v7" appearance="2" expanded="2">
 <page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
 <page content="com.aptana.terminal.views.terminal" label="Terminal"/>
@@ -183,10 +183,6 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
-<trimArea IMemento.internal.id="16384">
-<trimItem IMemento.internal.id="left"/>
-<trimItem IMemento.internal.id="org.eclipse.ui.internal.ViewStack@e9493a"/>
-</trimArea>
 <trimArea IMemento.internal.id="128">
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
 </trimArea>
@@ -194,58 +190,54 @@
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
 <trimItem IMemento.internal.id="org.eclipse.ui.internal.progress.ProgressRegion"/>
-<trimItem IMemento.internal.id="terminalArea"/>
 </trimArea>
 </trimLayout>
 </window>
 <mruList>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" name="servidor.js" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\servidor.js">
-<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/servidor.js"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="jsonp_practicar.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\jsonp_practicar.html">
+<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/jsonp_practicar.html"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" name="principal.css" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\estaticos\css\principal.css">
-<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/estaticos/css/principal.css"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" name="rutas.js" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\rutas\rutas.js">
-<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/rutas/rutas.js"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="blog.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\vistas\blog.html">
-<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/vistas/blog.html"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="chat-contenido.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\vistas\chat-contenido.html">
-<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/vistas/chat-contenido.html"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="chat.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\vistas\chat.html">
-<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/vistas/chat.html"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="geolocalizacion_practicar.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\geolocalizacion_practicar.html">
+<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/geolocalizacion_practicar.html"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="layout.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\vistas\layout.html">
 <persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/vistas/layout.html"/>
 </file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" name="history.min.js" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\estaticos\javascript\lib\history.min.js">
-<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/estaticos/javascript/lib/history.min.js"/>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" name="servidor.js" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\servidor.js">
+<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/servidor.js"/>
 </file>
-<file factoryID="com.aptana.terminal.TerminalElementFactory" id="com.aptana.terminal.TerminalEditor" name="" tooltip="">
-<persistable>
-<title>Terminal</title>
-<workingDirectory/>
-</persistable>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\vistas\index.html">
+<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/vistas/index.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="index-contenido.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\vistas\index-contenido.html">
+<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/vistas/index-contenido.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.css" name="principal.css" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\estaticos\css\principal.css">
+<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/estaticos/css/principal.css"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="chat.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\vistas\chat.html">
+<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/vistas/chat.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="chat-contenido.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\vistas\chat-contenido.html">
+<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/vistas/chat-contenido.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" name="rutas.js" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\rutas\rutas.js">
+<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/rutas/rutas.js"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" name="principal.js" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\estaticos\javascript\principal.js">
 <persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/estaticos/javascript/principal.js"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="blog.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\vistas\blog.html">
+<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/vistas/blog.html"/>
+</file>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.js" name="history.min.js" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\estaticos\javascript\lib\history.min.js">
+<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/estaticos/javascript/lib/history.min.js"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="contacto-contenido.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\vistas\contacto-contenido.html">
 <persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/vistas/contacto-contenido.html"/>
 </file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="contacto.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\vistas\contacto.html">
 <persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/vistas/contacto.html"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="index.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\vistas\index.html">
-<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/vistas/index.html"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="blog-contenido.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\vistas\blog-contenido.html">
-<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/vistas/blog-contenido.html"/>
-</file>
-<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="com.aptana.editor.html" name="practicar_jquery.html" tooltip="C:\Users\AulaE2\Downloads\blog_v7\blog_v7\practicar_jquery.html">
-<persistable uri="file:/C:/Users/AulaE2/Downloads/blog_v7/blog_v7/practicar_jquery.html"/>
 </file>
 </mruList>
 </workbench>

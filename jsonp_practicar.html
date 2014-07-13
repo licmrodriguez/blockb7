@@ -1,15 +1,43 @@
 <!doctype html>
 <html>
-	<head lang="es">
-		<meta charset="utf-8"/>
-		<title>JSONP ejemplo</title>
-		<script src="estaticos/javascript/lib/jquery.min.js"></script>
-		<script>
-			
-		</script>
-	</head>
-	<body>
-		<div id="imagenes"></div>
-	</body>
-</html>
+        <head lang="es">
+                <meta charset="utf-8"/>
+                <title>JSONP ejemplo</title>
+                <script src="estaticos/javascript/lib/jquery.min.js"></script>
 
+        </head>
+        <body>
+                <div id="imagenes">
+
+                </div>
+                <script>
+                        //LAS VARIABLES Y FUNCIONES GLOBALES SON INHERENTEMENT MALVADAS!!
+                        //PARA NO TENER VARIABLES GLOBALES O FUNCIONES
+                    // UNA TECNICA MIUY UTIL ES USAR CLOSURES Y FUNCIONES AUTOEJECUTABLES
+
+                        $.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?ids=61481595@N05&format=json&jsoncallback=?", function(datos) {
+                                
+                                //por que pongo .items?
+                                // por que YO SE QUE AL VER EL API JSON DE FLICKR
+                                //QUE TIENE ESA PROPIEDAD
+                                //SABEMOS AL VER EL API QUE items es UN ARREGLO DE JAVASCRIPT!!
+                                var fotos = datos.items;
+
+                                //PUEDEN ITERAR USANDO LO SIGUIENTE:
+                                fotos.forEach(function(foto) {
+
+                                        var titulo = foto.title;
+                                        var urlImagen = foto.media.m;
+
+                                        //SOLUCION EJERCICIO!!
+                                        var caja = "<div>" + "<img src='" + urlImagen + "'>" + "<h2>" + titulo + "</h2>" + "<p>" + foto.description + "</p>" + "</div>";
+
+                                        $("#imagenes").append(caja);
+
+                                });
+
+                        });
+
+                </script>
+        </body>
+</html>
